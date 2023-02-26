@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+
+
+ 
+    
+    
+}
+header {
+    background-color: 	#FFD700;
+    text-align: right;
+    padding: 30px 50px 10px 0;
+    font-size: medium;
+    position: sticky;
+    top: 0;
+}
+
+header> a {
+    color: rgb(10, 10, 10);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+     
+
+main{
+    display: flex;
+
+   
+}
+
+section#left{
+ 
+    background-color: rgb(177, 177, 164);
+    width: 300px;
+    height: 330vh; 
+    
+    
+}
+#imagen{
+   
+
+    background: #fafafb;
+ 	color: #fff;
+ 	border-radius: 50%;
+ 	display: flex;
+ 	text-align: center;
+ 	padding: 2px;
+ 	box-shadow: 0 0 6px 0 rgba (0, 0, 0, .5);
+ 	margin-right:  10px;
+
+}
+#imagen img{
+    padding:0px;
+    margin: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50%;
+
+    
+}
+.Datos h2{
+    color: #FFD700;
+
+    font-size: 1.5em;
+    padding: 40px 0px 5px 0px;
+
+}
+.Datos h3{
+    text-align: left;
+    padding: 10px;
+
+}
+
+
+.Conocimientos.idiomas{
+    background-color: rgb(177, 177, 164);
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+  }
+  .barra{
+    width: 200px;
+    height: 20px;
+    background: rgba(225, 225, 225, 0.5);
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0, 0, 0, 0.4);
+    border-right: 3px solid rgba(225, 225, 225,  0.2);
+    border-bottom: 3px solid rgba(225, 225, 225, 0.2);
+   
+
+  }
+   
+.Conocimientos h2{
+    color: #FFD700;
+
+    font-size: 1.5em;
+    padding: 40px 0px 5px 0px;
+}
+.Conocimientos h3{
+    text-align: left;
+    padding: 20px;
+}
+.progreso{
+    width: var(--w);
+    height: 20px;
+    background: rgba(248, 247, 244, 0.951);
+    border-radius: 10px;
+    animation: Aumentar 5s ease;
+    border:  1px solid;
+    border-bottom:3px solid ;
+   
+
+}
+.idiomas h2{
+    color: #FFD700;
+    font-size: 1.5em;
+    padding: 40px 0px 5px 0px;
+
+}
+.idiomas h3{
+    text-align: left;
+    padding: 20px;
+}
+
+@keyframes Aumentar{
+    0%{width: 0%;}
+    100%{width: var(--w);}
+
+}
+.progreso:hover{
+    animation: Active 5s ease;
+   
+}
+section#right{
+   
+    background-color: #f7f8f9;
+    width: 84%;
+    height: 330vh;
+    
+    
+}
+#name h1{
+    font-size: 4rem;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 130px 50px 0px 50px;
+}
+#name h2{
+    font-size: 3rem;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px 130px 50px ;
+   
+}
+#Proyectos #primero {
+    font-size: 2.5rem;
+    padding: 50px 50px 50px 50px ;
+
+}
+#Proyectos h3{
+    font-size: 2rem;
+}
+#Proyectos img{
+    height: 200px;
+    width: 500px;
+    padding: 0px 5px;
+
+}
+#Proyectos p{
+    padding:40px 10px 80px 10px;
+    font-size: 1.5rem;
+}
+    footer {
+        background-color: #333333;
+        color: #ffffff;
+    
+       
+        
+      }
+      #Contacto{
+        height: 200px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+
+      }
+      #Contactos h2{
+        color: #FFD700;
+        font-size: 1.5em;
+        padding: 10px 0px 5px 0px;
+        justify-content: center;
+        text-align: center;
+   
+    }
+    #formulario{
+        padding: 30px 20px 20px 50px;
+        height: 300px;
+        width: 400px;
+      }
+      #formulario #query{
+        height: 50px;
+        width: 400px;
+        
+
+      }
+      
+
+      .redes-sociales a i {
+        height: 50px;
+        width: 33%;
+        color: #ffffff;
+        padding: 90px 30px 70px 30px;
+        text-align: center;
+        
+        
+
+      }
+      
+      .redes-sociales a i:hover {
+        color: #ffcc00;
+        height: 100px;
+      }
+      #Contactos p{
+        padding:30px 10px 80px 10px;
+    font-size: 1.5rem;
+    text-align: center;
+
+      }
+
+     @media (max-width:1024px){
+header{
+
+    background-color: #FFD700;
+}
+#name h1{
+    font-size: 2.5rem;
+    text-align: center;
+   
+}
+#name h2{
+    font-size: 1.5rem;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px 130px 50px ;
+}
+
+}
+@media(max-width:800px){
+    *{
+        flex-wrap: wrap;
+       
+        
+    };
+    main{
+       
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+      section#left{
+        margin-left: auto;
+        margin-right: auto;
+        height: 180vh;
+      }
+     
+      section#right{
+        height: 430vh;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      .redes-sociales a i {
+        height: 30px;
+        width:40px;
+        
+      }
+      
+
+
+}
+
+     
