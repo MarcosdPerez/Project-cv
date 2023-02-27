@@ -215,7 +215,8 @@ section#right{
       }
       #formulario #query{
         height: 50px;
-        width: 400px;
+        width: 300px;
+         
         
 
       }
@@ -290,7 +291,7 @@ header{
 
       }
          #Proyectos img{
-             witdh:80%;
+             width:80%;
     }
       .redes-sociales a i {
         height: 30px;
